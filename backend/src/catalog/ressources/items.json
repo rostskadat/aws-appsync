@@ -1,0 +1,379 @@
+{
+  "Catalogs": [
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AF"
+          },
+          "Value": {
+            "S": "Afghanistan"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AX"
+          },
+          "Value": {
+            "S": "Åland Islands"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AL"
+          },
+          "Value": {
+            "S": "Albania"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "DZ"
+          },
+          "Value": {
+            "S": "Algeria"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AS"
+          },
+          "Value": {
+            "S": "American Samoa"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AD"
+          },
+          "Value": {
+            "S": "Andorra"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AO"
+          },
+          "Value": {
+            "S": "Angola"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AI"
+          },
+          "Value": {
+            "S": "Anguilla"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AQ"
+          },
+          "Value": {
+            "S": "Antarctica"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AG"
+          },
+          "Value": {
+            "S": "Antigua and Barbuda"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AR"
+          },
+          "Value": {
+            "S": "Argentina"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AM"
+          },
+          "Value": {
+            "S": "Armenia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AW"
+          },
+          "Value": {
+            "S": "Aruba"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AU"
+          },
+          "Value": {
+            "S": "Australia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AT"
+          },
+          "Value": {
+            "S": "Austria"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "AZ"
+          },
+          "Value": {
+            "S": "Azerbaijan"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BS"
+          },
+          "Value": {
+            "S": "Bahamas"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BH"
+          },
+          "Value": {
+            "S": "Bahrain"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BD"
+          },
+          "Value": {
+            "S": "Bangladesh"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BB"
+          },
+          "Value": {
+            "S": "Barbados"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BY"
+          },
+          "Value": {
+            "S": "Belarus"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BE"
+          },
+          "Value": {
+            "S": "Belgium"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BZ"
+          },
+          "Value": {
+            "S": "Belize"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BJ"
+          },
+          "Value": {
+            "S": "Benin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CatalogName": {
+            "S": "Country"
+          },
+          "Key": {
+            "S": "BM"
+          },
+          "Value": {
+            "S": "Bermuda"
+          }
+        }
+      }
+    }
+  ]
+}
