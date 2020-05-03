@@ -1,0 +1,52 @@
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+}
+
+li.nav-item {
+  margin-left: 2em;
+}
+
+.container-fluid {
+  margin-right: 1em;
+}
+
+fa-icon {
+  margin-right: 0.3em;
+}
+
+//$backColor: brown;
+//
+// .search-button {
+//     border-color: skyblue;
+//     color: blue;
+//
+//     &:hover, &:after, &:focus {
+//         background-color: transparent;
+//         color: $backColor;
+//     }
+// }
+// .brand-custom {
+//     &:hover, &:focus, &:active {
+//         background-color: transparent;
+//         color:$backColor;
+//     }
+// }
+//
+// .login-custom {
+//     &:hover, &:focus, &:active {
+//         background-color: transparent;
+//         color:$backColor !important;
+//     }
+// }
+//
+// .register-custom {
+//     &:hover, &:focus, &:active {
+//         background-color: transparent;
+//         color:$backColor !important;
+//     }
+// }

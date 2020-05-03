@@ -1,0 +1,56 @@
+<p>These are all the catalogs found in the system:</p>
+
+<div class="form-group form-inline">
+  <form>
+    <input class="form-control ml-2" type="text" [(ngModel)]="catalogService.searchTerm" name="searchTerm" aria-label="searchTerm" placeholder="Filter" ngbTooltip="Filter on name or description" />
+    <span class="ml-3" *ngIf="catalogService.loading$ | async">Loading...</span>
+  </form>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col" sortable="name" (sort)="onSort($event)">Name</th>
+      <th scope="col" sortable="description" (sort)="onSort($event)">Description</th>
+      <th scope="col" sortable="items" (sort)="onSort($event)">Items</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let catalog of catalogs$ | async">
+      <th scope="row">{{ catalog.id }}</th>
+      <td>
+        <ngb-highlight [result]="catalog.name" [term]="catalogService.searchTerm"></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="catalog.description" [term]="catalogService.searchTerm"></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="catalog.items | number" [term]="catalogService.searchTerm"></ngb-highlight>
+      </td>
+      <td>
+        <button type="button" class="btn btn-outline-primary" ngbTooltip="View this catalog..." [routerLink]="['/catalogs/'+catalog.id]">
+          <fa-icon [icon]="faSignInAlt"></fa-icon>View
+        </button>
+        <button type="button" class="btn btn-outline-success" ngbTooltip="Edit this catalog..." (click)="onEdit(catalog)">
+          <fa-icon [icon]="faEdit"></fa-icon>Edit
+        </button>
+        <button type="button" class="btn btn-outline-danger" ngbTooltip="Delete this catalog" (click)="onDelete(catalog)">
+          <fa-icon [icon]="faTrashAlt"></fa-icon>Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="d-flex justify-content-between p-2">
+  <ngb-pagination [collectionSize]="(total$ | async)!" [(page)]="catalogService.page" [pageSize]="catalogService.pageSize">
+  </ngb-pagination>
+
+  <select class="custom-select" style="width: auto" name="pageSize" [(ngModel)]="catalogService.pageSize">
+    <option [value]="2">2 items per page</option>
+    <option [value]="4">4 items per page</option>
+    <option [value]="6">6 items per page</option>
+  </select>
+</div>

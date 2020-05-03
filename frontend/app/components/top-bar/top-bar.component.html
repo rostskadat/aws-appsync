@@ -1,0 +1,12 @@
+<nav class="navbar navbar-light navbar-expand-lg bg-primary justify-content-between">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" [routerLink]="['/']">
+        <h1>Catalogs</h1>
+      </a>
+    </div>
+  </div>
+  <button type="button" class="btn btn-outline-success" ngbTooltip="Open Settings..." [routerLink]="['/settings']" [routerLinkActive]="['active']">
+    <fa-icon [icon]="faTools"></fa-icon>
+  </button>
+</nav>
